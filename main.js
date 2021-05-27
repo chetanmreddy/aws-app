@@ -10,7 +10,7 @@ window.onload = function(){
 
     ctxIn.fillStyle = "white";
     ctxIn.fillRect(0, 0, cvsIn.width, cvsIn.height);
-    ctxIn.lineWidth = 7;
+    ctxIn.lineWidth = 15;
     ctxIn.lineCap = "round";
 }
 
