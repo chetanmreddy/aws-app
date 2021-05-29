@@ -118,7 +118,7 @@ async function onRecognition() {
     }
     console.log(JSON.stringify(payload))
 
-    var response = await fetch('https://mrj5bjvhhh.execute-api.us-east-1.amazonaws.com/prod', {
+    var response = await fetch('https://o1gkuadsfb.execute-api.us-east-1.amazonaws.com/prod', {
         method: 'POST',
         body: JSON.stringify(payload), // string or object
         dataType: 'json',
